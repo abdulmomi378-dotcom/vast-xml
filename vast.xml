@@ -6,7 +6,7 @@
       <Creatives>
         <Creative>
           <Linear skipoffset="00:00:05">
-            <Duration>00:00:30</Duration>
+            <Duration>00:04:21</Duration>
             <TrackingEvents>
               <Tracking event="skip"><![CDATA[https://example.com]]></Tracking>
             </TrackingEvents>
