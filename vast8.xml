@@ -1,7 +1,7 @@
-<VAST version="3.0">
+<VAST version="4.0">
   <Ad id="12345">
     <InLine>
-      <AdSystem version="4.0">Google Ad Manager</AdSystem>
+      <AdSystem version="4.0">AdServer</AdSystem>
       <AdTitle>NonLinear Overlay Ad Example</AdTitle>
       <Description><![CDATA[VAST 3.0 sample tag for a Non-Linear image overlay ad.]]></Description>
       
