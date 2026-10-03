@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://players.brightcove.net/videojs-ima3/4/videojs-ima3.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-color: #111;">
+    <video-js id="myPlayerID"
+  data-account="1752604059001"
+  data-player="B1xXFuBodW"
+  data-embed="default"
+  class="video-js vjs-16-9"
+  controls
+  width="640"
+  height="360">
+<source src="video.mp4" type="video/mp4">
+</video-js>
+
+<script src="https://players.brightcove.net/1752604059001/B1xXFuBodW_default/index.min.js">
+</script>  
+<script src="https://players.brightcove.net/videojs-ima3/4/videojs-ima3.min.js"></script>
+
+  <script>
+videojs.getPlayer('myPlayerID').ready(function() {
+  var myPlayer = this;
+  
+
+
+  // Initialize IMA3 plugin with adsResponse
+  myPlayer.ima3({
+    serverUrl: '', 
+  });
+});
+
+</script>
+</body>
+</html>
