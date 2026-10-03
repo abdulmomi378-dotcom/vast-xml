@@ -1,0 +1,26 @@
+<VAST version="3.0">
+  <Ad id="preroll">
+    <InLine>
+      <AdSystem>Example Ad Server</AdSystem>
+      <Impression><![CDATA[https://example.com]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear skipoffset="00:00:05">
+            <Duration>00:04:21</Duration>
+            <TrackingEvents>
+              <Tracking event="skip"><![CDATA[https://example.com]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://example.com]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720">
+                <![CDATA[http://192.168.100.9:5500/video2.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
