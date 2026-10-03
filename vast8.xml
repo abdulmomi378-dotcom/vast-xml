@@ -1,0 +1,40 @@
+<VAST version="3.0">
+  <Ad id="12345">
+    <InLine>
+      <AdSystem version="4.0">Google Ad Manager</AdSystem>
+      <AdTitle>NonLinear Overlay Ad Example</AdTitle>
+      <Description><![CDATA[VAST 3.0 sample tag for a Non-Linear image overlay ad.]]></Description>
+      
+      <!-- Core Tracking URLs -->
+      <Error><![CDATA[https://example.com[ERRORCODE]]]></Error>
+      <Impression id="Impression-ID"><![CDATA[https://example.com]]></Impression>
+      
+      <Creatives>
+        <Creative id="5480" sequence="1">
+          <!-- NonLinearAds wrapper block -->
+          <NonLinearAds>
+            <!-- Define the dimensions and behavior of the overlay -->
+            <NonLinear width="480" height="70" minSuggestedDuration="00:00:00" scalable="true" maintainAspectRatio="true">
+              
+              <!-- StaticResource points to the hosted overlay image, GIF, or SWF asset -->
+              <StaticResource creativeType="image/png">
+                <![CDATA[https://picusm.photos/480/70]]>
+              </StaticResource>
+              
+              <!-- Destination link when a user clicks the overlay banner -->
+              <NonLinearClickThrough>
+                <![CDATA[https://google.com]]>
+              </NonLinearClickThrough>
+              
+              <!-- Optional: Tracking click metrics -->
+              <NonLinearClickTracking>
+                <![CDATA[https://example.com]]>
+              </NonLinearClickTracking>
+              
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
