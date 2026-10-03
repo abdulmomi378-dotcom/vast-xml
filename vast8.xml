@@ -18,7 +18,7 @@
               
               <!-- StaticResource points to the hosted overlay image, GIF, or SWF asset -->
               <StaticResource creativeType="image/png">
-                <![CDATA[https://picusm.photos/480/70]]>
+                <![CDATA[https://picsum.photos/480/70]]>
               </StaticResource>
               
               <!-- Destination link when a user clicks the overlay banner -->
