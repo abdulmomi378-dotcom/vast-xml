@@ -28,8 +28,8 @@
               <ClickThrough><![CDATA[https://www.pexels.com]]></ClickThrough>
             </VideoClicks>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" width="360" height="640">
-                <![CDATA[https://videos.pexels.com/video-files/15386749/15386749-sd_360_640_30fps.mp4]]>
+              <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720">
+                <![CDATA[https://videos.pexels.com/video-files/28926280/12519176_1280_720_30fps.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
